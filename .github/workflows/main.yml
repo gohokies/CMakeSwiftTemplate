@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: install ninja build tool
         run: |
-          sudo apt install ninjabuild
+          sudo apt-get install ninja-build
       - name: CMake configure
         run: |
           cmake -G Ninja -S . -B ./build
