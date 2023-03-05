@@ -2,9 +2,9 @@
 # CMake options
 # 
 
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.9)
 
-project(CMakeSwifttemplate Swift)
+project(CMakeSwiftTemplate Swift)
 
 # Output directories
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
